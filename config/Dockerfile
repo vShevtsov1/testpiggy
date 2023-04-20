@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM jdk:8-jre
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
 ADD ./target/config.jar /app/
